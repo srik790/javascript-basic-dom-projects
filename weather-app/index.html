@@ -1,36 +1,40 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Weather App in JavaScript</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
+
+<head>
+  <title>Weather App in JavaScript</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div style="display: flex; justify-content: center; margin-top: 30px;">
     <input type="text" id="city">
     <button type="button" id="btn">Search</button>
+  </div>
 
-     <h1>Current Weather</h1>
-    <div id="weather-info">
-      <div>
-        <strong>Location:</strong> <span id="location"></span>
-      </div>
-      <div>
-        <strong>Temperature:</strong> <span id="temp"></span>
-      </div>
-      <div>
-        <strong>Condition:</strong> <span id="condition"></span>
-      </div>
-      <div>
-        <strong>Precipitation:</strong> <span id="precip_in"></span>
-      </div>
-      <div>
-        <strong>Humidity:</strong> <span id="humidity"></span>
-      </div>
-      <div>
-        <strong>Wind Speed:</strong> <span id="windSpeed"></span>
-      </div>
+  <h1>Current Weather</h1>
+  <div id="weather-info">
+    <div>
+      <strong>Location:</strong> <span id="location"></span>
     </div>
-    
-    <script src="app.js"></script>
+    <div>
+      <strong>Temperature:</strong> <span id="temp"></span>
+    </div>
+    <div>
+      <strong>Condition:</strong> <span id="condition"></span>
+    </div>
+    <div>
+      <strong>Precipitation:</strong> <span id="precip_in"></span>
+    </div>
+    <div>
+      <strong>Humidity:</strong> <span id="humidity"></span>
+    </div>
+    <div>
+      <strong>Wind Speed:</strong> <span id="windSpeed"></span>
+    </div>
+  </div>
 
-  </body>
+  <script src="app.js"></script>
+</body>
+
 </html>

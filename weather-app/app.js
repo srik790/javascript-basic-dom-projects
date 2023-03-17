@@ -1,12 +1,16 @@
-
+//Select the button element by its ID 'btn'
 btn = document.getElementById('btn');
-btn.addEventListener('click',getWeather)
 
+//Add a click event listener to the button element that calls the function 'getWeather'
+btn.addEventListener('click', getWeather)
 
-function getWeather(){
+//Function that retrieves the current weather for the city entered by the user
+function getWeather() {
 
+    //Get the value of the input field with the ID 'city'
     let city = document.getElementById('city').value;
 
+    //Set the options for the API request
     const options = {
         method: 'GET',
         headers: {
@@ -14,26 +18,23 @@ function getWeather(){
             'X-RapidAPI-Host': 'weatherapi-com.p.rapidapi.com'
         }
     };
-    
+
+    //Fetch the data from the API and convert the response to JSON
     fetch(`https://weatherapi-com.p.rapidapi.com/current.json?q=${city}`, options)
         .then(response => response.json())
-        .then(response => showWeatherInUi(response))
-        .catch(err => console.error(err));
-    
-}
+        .then(response => showWeatherInUi(response));}
 
-function showWeatherInUi(data){
+//Function that displays the weather data in the UI
+function showWeatherInUi(data) {
+
+    //Print the data to the console for debugging
     console.log(data);
-    debugger;
 
-      document.getElementById("location").innerHTML = `Current Weather in ${data.location.name}, ${data.location.region}`;
-      document.getElementById("temp").innerHTML = `Temperature: ${data.current.temp_c}°C`;
-      document.getElementById("condition").innerHTML = `Condition: ${data.current.condition.text}`;
-      document.getElementById("precip_in").innerHTML = `Perci: ${data.current.wind_kph} km/h`;
-      document.getElementById("humidity").innerHTML = `Humidity: ${data.current.humidity}`;
-      document.getElementById("windSpeed").innerHTML = `Wind Speed: ${data.current.condition.text}`;
-
+    //Set the values of the elements with the specified IDs to the corresponding data values from the API response
+    document.getElementById("location").innerHTML = `${data.location.name}, ${data.location.region}`;
+    document.getElementById("temp").innerHTML = `${data.current.temp_c}°C`;
+    document.getElementById("condition").innerHTML = `${data.current.condition.text}`;
+    document.getElementById("precip_in").innerHTML = `${data.current.wind_kph} km/h`;
+    document.getElementById("humidity").innerHTML = `${data.current.humidity}`;
+    document.getElementById("windSpeed").innerHTML = `${data.current.condition.text}`;
 }
-
-
-
