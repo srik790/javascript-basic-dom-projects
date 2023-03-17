@@ -1,9 +1,12 @@
-W3s editor - https://www.w3schools.com/html/tryit.asp?filename=tryhtml_styles_color
+W3s editor 
+https://www.w3schools.com/html/tryit.asp?filename=tryhtml_styles_color
 
 
 
 Practice super simple html
 https://www.youtube.com/watch?v=PlxWf493en4
+
+
 
 Html Practice
 https://www.youtube.com/watch?v=GDGejH3SDNQ
@@ -11,6 +14,7 @@ https://www.youtube.com/watch?v=GDGejH3SDNQ
 
 Practice html along.
 https://www.youtube.com/watch?v=pQN-pnXPaVg&t=24s
+
 
 Practice Recipe Website
 https://www.youtube.com/watch?v=-8LTPIJBGwQ
@@ -21,6 +25,18 @@ https://www.youtube.com/watch?v=Aj7HLsJenVg&t=301s
 Starter Code
 https://github.com/jlop007/FreeCodeCamp-NewsFlash
 
+
+
 Practice Shaif Cuisine
 https://www.youtube.com/watch?v=-8LTPIJBGwQ
 
+
+Learn css
+https://www.youtube.com/watch?v=OXGznpKZ_sA
+starter Code
+https://github.com/gitdagray/css_course
+
+
+Create Greetings Card
+Resume
+Essay etc on html
