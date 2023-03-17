@@ -129,11 +129,12 @@ Share Button - You can create a web page with a share button that allows users t
 -----Challenge 3------------------------------------------
 Star Rating System - You can create a web page with a star rating system that allows users to rate a product or service using a range of stars.
 Weather App
-Easy Game (show animation first like slide and jump)
 Movies App
 
 Weight Converter
 Currency Converter
+
+Check project ideas pdf in resources
 
 Practice Api Javascript
 https://www.youtube.com/watch?v=-7JSF_aATJg
