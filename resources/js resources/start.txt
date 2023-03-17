@@ -1,0 +1,24 @@
+Write the basic structure:
+
+Step 1: Create your Page Structure in index.html
+Step 2: Add Css as required
+Step 3: Link js file at the end of body
+
+For adding behaviour using javascript.
+Step 1: Give **unique name** to the element **id** in HTML file 
+ex : 
+<button id="btn1">Click me</button>
+
+Step 2: go to js file and create a **variable**, store the element reference using **document.getelementById**
+ex: 
+const btn1 = document.getelementById("btn1");
+
+Step 3: attach event listener in variable using **addEventListener**
+ex: 
+btn1.addEventListener('click', handleClick)
+
+Step 4: Define **function** and write the logic in the code block 
+ex: 
+function handleClick() {
+    alert('You clicked the button')
+}
