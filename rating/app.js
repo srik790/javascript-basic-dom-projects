@@ -22,6 +22,7 @@ function handleStarClick(event) {
   for (let i = 0; i < rating; i++) {
     stars[i].classList.add("active");
   }
+  document.getElementById("rate").innerHTML = rating
 }
 
 /*This code selects all the elements with the class 'star' and adds a click event listener to each of them. 
