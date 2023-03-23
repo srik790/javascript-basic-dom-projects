@@ -19,11 +19,14 @@ https://www.youtube.com/watch?v=pQN-pnXPaVg&t=24s
 Practice Recipe Website
 https://www.youtube.com/watch?v=-8LTPIJBGwQ
 
+Challenge 1:
 
 Practice News Flash Website
 https://www.youtube.com/watch?v=Aj7HLsJenVg&t=301s
 Starter Code
 https://github.com/jlop007/FreeCodeCamp-NewsFlash
+
+
 
 
 
@@ -37,6 +40,7 @@ starter Code
 https://github.com/gitdagray/css_course
 
 
+For practice html: on w3s
 Create Greetings Card
 Resume
 Essay etc on html

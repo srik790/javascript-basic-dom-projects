@@ -127,20 +127,31 @@ git clone https://github.com/srik790/javascript-basic-dom-projects.git
 
 -----Challenge 3------------------------------------------
 
-Number Print 
+Number Print:
+Write a JavaScript program that takes a number input from the user and prints it to the UI.
+
 Even Print
+Write a JavaScript program that takes a number input from the user and prints all even numbers from 0 up to that number (inclusive) to the UI.
+
 Prime Print
+Write a JavaScript program that takes a number input from the user and prints all prime numbers from 0 up to that number (inclusive) to the UI.
+
+
 Star Rating System - You can create a web page with a star rating system that allows users to rate a product or service using a range of stars.
 
 
 Weather App
 Movies App
 Number Guess Game
-Heart sliding up
-Heart trail animation
+
+Weight Converter
+You can start by creating a basic HTML page that includes a form with input fields for the weight in kilograms and grams and convert button.
+
 
 
 -------------learn to build games on JavaScript-------------------------------------
+Heart sliding up
+Heart trail animation
 Block sliding
 Jump animation on click
 Jump and Block Game
@@ -158,7 +169,7 @@ Give 100 practice set from pdf downloaded ... practice like function, variable,a
 JShero or JS challanger.com
 
 
-Challenge x
+Challenge 2: Practice follow up
 ---------------------------------------
 
 3 like button with post
@@ -169,7 +180,7 @@ Challenge x
 10 follow button
 10 subscribe button
 
-Weight Converter
+
 Currency Converter
 Wishlist in sinlge page
 Cart clone in single page...
