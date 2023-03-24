@@ -128,7 +128,7 @@ git clone https://github.com/srik790/javascript-basic-dom-projects.git
 -----Challenge 3------------------------------------------
 
 Number Print:
-Write a JavaScript program that takes a number input from the user and prints it to the UI.
+Write a JavaScript program that takes a number input from the user and prints  all numbers from 1 up to that number (inclusive) to the UI..
 
 Even Print
 Write a JavaScript program that takes a number input from the user and prints all even numbers from 0 up to that number (inclusive) to the UI.
@@ -139,17 +139,27 @@ Write a JavaScript program that takes a number input from the user and prints al
 
 Star Rating System - You can create a web page with a star rating system that allows users to rate a product or service using a range of stars.
 
-
-Weather App
-Movies App
 Number Guess Game
 
 Weight Converter
 You can start by creating a basic HTML page that includes a form with input fields for the weight in kilograms and grams and convert button.
 
-hit the debugger
+go through debug video and give cctv example
+hit the debugger (use the inspect tool)
 fix readmore
-use the inspect tool
+fix Surpriseme
+fix like
+fix subscribe
+fix follow
+
+(go through api video)
+Weather App
+Movies App
+
+
+
+
+
 
 
 -------------learn to build games on JavaScript-------------------------------------
@@ -185,6 +195,8 @@ Challenge 2: Practice follow up
 
 
 Currency Converter
+google translator
+google maps
 Wishlist in sinlge page
 Cart clone in single page...
 
