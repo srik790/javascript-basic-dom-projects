@@ -147,6 +147,9 @@ Number Guess Game
 Weight Converter
 You can start by creating a basic HTML page that includes a form with input fields for the weight in kilograms and grams and convert button.
 
+hit the debugger
+fix readmore
+use the inspect tool
 
 
 -------------learn to build games on JavaScript-------------------------------------
