@@ -10,6 +10,7 @@ const numberList = document.getElementById("numberList");
 //Add a click event listener to the 'createListButton' element
 createListButton.addEventListener("click", handleButtonClick);
 
+let nextNumber = 2;
 //Function to write the numbers to the list
 function handleButtonClick() {
 
@@ -20,7 +21,7 @@ function handleButtonClick() {
   numberList.innerHTML = "";
 
   //Loop through numbers 1 to the entered number and create a list item for each
-  for (let i = 1; i <= number; i++) {
+  for (let i = 2; i <= number; i= i+2) {
     const listItem = document.createElement("li");
     listItem.textContent = i;
     numberList.appendChild(listItem);
