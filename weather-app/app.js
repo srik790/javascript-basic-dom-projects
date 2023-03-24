@@ -5,12 +5,13 @@ btn = document.getElementById('btn');
 btn.addEventListener('click', getWeather)
 
 //Function that retrieves the current weather for the city entered by the user
-function getWeather() {
+async function getWeather() {
 
     //Get the value of the input field with the ID 'city'
     let city = document.getElementById('city').value;
 
     //Set the options for the API request
+    //Customize food instruction to waiter
     const options = {
         method: 'GET',
         headers: {
@@ -20,15 +21,18 @@ function getWeather() {
     };
 
     //Fetch the data from the API and convert the response to JSON
-    fetch(`https://weatherapi-com.p.rapidapi.com/current.json?q=${city}`, options)
-        .then(response => response.json())
-        .then(response => showWeatherInUi(response));}
+    let response = await fetch(`https://weatherapi-com.p.rapidapi.com/current.json?q=${city}`, options);
+
+    //Print the data to the console for debugging
+    console.log(data);
+
+    let data = await response.json();
+    showWeatherInUi(data)
+}
 
 //Function that displays the weather data in the UI
 function showWeatherInUi(data) {
 
-    //Print the data to the console for debugging
-    console.log(data);
 
     //Set the values of the elements with the specified IDs to the corresponding data values from the API response
     document.getElementById("location").innerHTML = `${data.location.name}, ${data.location.region}`;
