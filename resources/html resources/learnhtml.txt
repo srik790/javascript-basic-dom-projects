@@ -1,6 +1,8 @@
 W3s editor 
 https://www.w3schools.com/html/tryit.asp?filename=tryhtml_styles_color
 
+Teach from Deborah Kurata Playlist
+
 
 
 Practice super simple html
