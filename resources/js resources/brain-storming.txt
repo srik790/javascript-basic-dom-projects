@@ -1,4 +1,20 @@
-Great job on completing the JavaScript Basic DOM projects! Here are some suggestions to create an advanced version of these projects:
+Challenge 2: Practice follow up
+---------------------------------------
+
+3 like button with post
+3 follow button
+3 subscribe button
+
+10 like button with post
+10 follow button
+10 subscribe button
+
+
+Currency Converter
+google translator
+google maps
+Wishlist in sinlge page
+Cart clone in single page...
 
 Color Flipper:
 Add a feature where the user can select the color palette from a dropdown menu.
@@ -31,3 +47,18 @@ To-Do List:
 Add a feature where the user can set a due date for each task.
 Add a feature where the user can prioritize tasks by assigning them a level of importance.
 Add a feature where the user can categorize tasks by assigning them a label.
+
+
+Challenge advance social Media
+---------------------------------------------------------
+like button with post -  Array of post with likescount and give option to user to like the post 
+follow button with user -  Array of user with followingcount and give option to user to follow the user 
+Instagram like scroll pic and user can scroll and give heart to the pic
+Multiple Product Star Rating
+
+Ecommerce website---------
+
+Florinpop 10 hours javascript
+Practice Api Javascript : https://www.youtube.com/watch?v=-7JSF_aATJg
+100js projects : https://www.100jsprojects.com/projects
+Check project ideas pdf in resources
