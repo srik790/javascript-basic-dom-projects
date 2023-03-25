@@ -25,3 +25,5 @@ ex: function todo(){
 take class from w3s JS and solve the exercises.
 
 100 exercises for creating function like add two numbers etc
+
+teach from Deborah kurata Youtube playlist
