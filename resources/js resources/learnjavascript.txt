@@ -136,7 +136,6 @@ Write a JavaScript program that takes a number input from the user and prints al
 Prime Print
 Write a JavaScript program that takes a number input from the user and prints all prime numbers from 0 up to that number (inclusive) to the UI.
 
-
 Star Rating System - You can create a web page with a star rating system that allows users to rate a product or service using a range of stars.
 
 Number Guess Game
@@ -144,13 +143,16 @@ Number Guess Game
 Weight Converter
 You can start by creating a basic HTML page that includes a form with input fields for the weight in kilograms and grams and convert button.
 
-go through debug video and give cctv example
-hit the debugger (use the inspect tool)
 fix readmore
 fix Surpriseme
 fix like
 fix subscribe
 fix follow
+
+
+
+go through debug video and give cctv example
+hit the debugger (use the inspect tool)
 
 (go through api video)
 Weather App
@@ -175,45 +177,15 @@ Dice Roll Game
 ------Class Work (JavaScript variable,function,array,object, loops)---------------------------------------------
 Git upload is compulsory
 
+Use Deborah Kurata Videos to teach
+
 W3s Javascript Tutorial variable, function,array etc
 function variable object exercises from w3s....
 
-Give 100 practice set from pdf downloaded ... practice like function, variable,arrayand solve mathematical function etc
+Give 100 practice set from pdf downloaded ... practice like function, variable,array and solve mathematical function etc
 JShero or JS challanger.com
 
 
-Challenge 2: Practice follow up
----------------------------------------
-
-3 like button with post
-3 follow button
-3 subscribe button
-
-10 like button with post
-10 follow button
-10 subscribe button
-
-
-Currency Converter
-google translator
-google maps
-Wishlist in sinlge page
-Cart clone in single page...
-
-
-Challenge advance social Media
----------------------------------------------------------
-like button with post -  Array of post with likescount and give option to user to like the post 
-follow button with user -  Array of user with followingcount and give option to user to follow the user 
-Instagram like scroll pic and user can scroll and give heart to the pic
-Multiple Product Star Rating
-
-Ecommerce website---------
-
-Florinpop 10 hours javascript
-Practice Api Javascript : https://www.youtube.com/watch?v=-7JSF_aATJg
-100js projects : https://www.100jsprojects.com/projects
-Check project ideas pdf in resources
 
 
 
