@@ -1,28 +1,25 @@
 //****** Initial state**********/
-var isOn = false;
+let isOn = true; 
 
 // ****** select items **********
-const btnToggle = document.getElementById("btnToggle");
-const bulbImg = document.getElementById("bulbImg");
+const btnToggle = document.getElemntById(btnToggle);
+const bulbImg = document.getElementById("blubImg");
+
 // ****** event listeners **********
-// submit form
-btnToggle.addEventListener("click", toggleBulb);
+btnToggle.addEventListener("mouseover", toggleBulb);
 
 // ****** functions **********
 
-function toggleBulb(){
-  debugger;
-  if(isOn){
-    bulbImg.src='pic_bulboff.gif';
-    btnToggle.innerHTML = 'Turn on the light';
+function toggleBulb() {
+  if (isOn) {
+    bulbImg.src = 'pic_bulboff.jpg';
+    btnToggle.innerHTML = 'Turn on the lights';
+    isOn = true;
+
+  } else {
+    bulbImg.src = 'pic_bulbon.gif';
+    btnToggle.innerHTML = 'Turn off the lights';
     isOn = false;
 
   }
-  else{
-    bulbImg.src='pic_bulbon.gif';
-    btnToggle.innerHTML = 'Turn off the light'
-    isOn = true;
-
-  }
-
 }

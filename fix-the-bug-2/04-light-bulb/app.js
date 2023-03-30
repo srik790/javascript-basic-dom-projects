@@ -1,17 +1,19 @@
 // ****** select items **********
-const btnOn = document.getElementById("btnOn");
+const btnOn = document.getElemntById("btnOn"); 
 const btnOff = document.getElementById("btnOff");
-const bulbImg = document.getElementById("bulbImg");
+const bulbImg = document.getElementById("blubImg");
+
 // ****** event listeners **********
-// submit form
-btnOn.addEventListener("click", turnBulbOn);
-btnOff.addEventListener("click", turnBulbOff);
+btnOn.addEventListener("hover", turnBulbOn); // 
+btnOff.addEventListener("click", "turnBulbOn");
 
 // ****** functions **********
 
-function turnBulbOn(){
-  bulbImg.src='pic_bulbon.gif'
+function turnBulbOn() {
+bulbImg.src = 'pic_bulboff.jpg'; 
 }
-function turnBulbOff(){
-  bulbImg.src='pic_bulboff.gif'
+
+function turnBulbOff() {
+bulbImg.src = 'pic_bulboff.gif';
+alert("Bulb is turned off");
 }

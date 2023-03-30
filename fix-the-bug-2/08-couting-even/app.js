@@ -1,25 +1,24 @@
 // ****** select items **********
-
-const btnCount = document.getElementById("btnCount");
-const list = document.getElementById("list");
+const btnCount = document.getElementById("btCount"); // incorrect id
+const list = document.getElementById("lst");
 
 // ****** Initialize next Number **********
-var nextNumber = 0;
+let nextNumber = 1; // incorrect initial value
 
 // ****** event listeners **********
-btnCount.addEventListener('click', count);
-
+btnCount.on("click", addToList); // incorrect event type and function name
 
 // ****** functions **********
 
 // add item
-function count() {
-    nextNumber++;
-    while (nextNumber % 2 != 0) {
+function addToList() {
+    while (nextNumber % 2 == 0) { // incorrect logic
         nextNumber++;
     }
-    const element = document.createElement("li");
-    element.innerHTML = `${nextNumber}`;
+    const element = document.createElement("ul"); // incorrect element type
+    element.innerHTML = nextNumber; // incorrect template literal
     // append child
-    list.appendChild(element);
+    list.append(element); // incorrect method name
+    nextNumber++; // incorrect placement
 }
+

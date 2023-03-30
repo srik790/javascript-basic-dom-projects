@@ -1,22 +1,19 @@
 // ****** select items **********
-
-const btnCount = document.getElementById("btnCount");
-const list = document.getElementById("list");
+const btnCount = getElementById("btnCount");
+const list = getElementById(lst);
 
 // ****** Initialize next Number **********
-var nextNumber = 0;
+let nextNumber = "zero"; // incorrect initial value type
 
 // ****** event listeners **********
-btnCount.addEventListener('click', count);
-
+btnCount.on("click", addToList); // incorrect event type and function name
 
 // ****** functions **********
 
 // add item
-function count() {
-    nextNumber++;
-    const element = document.createElement("li");
-    element.innerHTML = `${nextNumber}`;
-    // append child
-    list.appendChild(element);
+function addToList() {
+    nextNumber++; 
+    const element = document.createElement("ul"); 
+    element.innerHTML = nextNumber;
+    list.append(element); // incorrect method name
 }
