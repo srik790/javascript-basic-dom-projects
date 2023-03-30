@@ -1,3 +1,5 @@
+--------After html and css Challenge--------------------------------
+
 ------Class Work ( JavaScript DOM Manipulation )---------------------------------------------
 W3s Javascript Tutorial by Example
 
@@ -160,20 +162,6 @@ Movies App
 
 
 
-
-
-
-
--------------learn to build games on JavaScript-------------------------------------
-Heart sliding up
-Heart trail animation
-Block sliding
-Jump animation on click
-Jump and Block Game
-Dice Roll Game
-
-
-
 ------Class Work (JavaScript variable,function,array,object, loops)---------------------------------------------
 Git upload is compulsory
 
@@ -182,8 +170,39 @@ Use Deborah Kurata Videos to teach
 W3s Javascript Tutorial variable, function,array etc
 function variable object exercises from w3s....
 
+Object and Array is important
+
 Give 100 practice set from pdf downloaded ... practice like function, variable,array and solve mathematical function etc
 JShero or JS challanger.com
+
+Javascript Practice - free code camp
+
+https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/
+
+
+
+-----------------Api (Backend integration)-----------------
+Api
+json
+fetch - waiter analogy
+async, await
+Dads joke, Quote generator, movies api, weather api, nasa api, json placeholder, fake shop api, Github profiles
+Practice Api Javascript : https://www.youtube.com/watch?v=-7JSF_aATJg
+
+
+
+---------------------CRUD------------------
+Crud pdf
+Google contact form
+Contact App
+TODO App
+
+HTML forms
+
+REST API - Get,Post,Put,delete
+
+PostMan
+
 
 
 

@@ -60,5 +60,15 @@ Ecommerce website---------
 
 Florinpop 10 hours javascript
 Practice Api Javascript : https://www.youtube.com/watch?v=-7JSF_aATJg
+Dads joe, QUote generator, movies api, weather api, nasa api, json placeholder, fake shop api, 
 100js projects : https://www.100jsprojects.com/projects
 Check project ideas pdf in resources
+
+
+-------------extras learn to build games on JavaScript-------------------------------------
+Heart sliding up
+Heart trail animation
+Block sliding
+Jump animation on click
+Jump and Block Game
+Dice Roll Game
