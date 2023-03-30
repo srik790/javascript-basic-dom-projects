@@ -16,6 +16,8 @@ google maps
 Wishlist in sinlge page
 Cart clone in single page...
 
+Music app
+
 Color Flipper:
 Add a feature where the user can select the color palette from a dropdown menu.
 Add a feature where the background color changes gradually to the next color instead of changing abruptly.
@@ -72,3 +74,10 @@ Block sliding
 Jump animation on click
 Jump and Block Game
 Dice Roll Game
+
+
+---------------------
+COde combat 
+Ozario Classroom
+
+#100daysofcoding google classroom
