@@ -12,21 +12,22 @@ async function getWeather() {
 
     //Set the options for the API request
     //Customize food instruction to waiter
-    const options = {
-        method: 'GET',
-        headers: {
-            'X-RapidAPI-Key': '1b11cbd093msh769517372c1ba7ap197772jsn7cc7c00c7f6c',
-            'X-RapidAPI-Host': 'weatherapi-com.p.rapidapi.com'
-        }
-    };
+    // const options = {
+    //     method: 'GET',
+    //     headers: {
+    //         'X-RapidAPI-Key': '1b11cbd093msh769517372c1ba7ap197772jsn7cc7c00c7f6c',
+    //         'X-RapidAPI-Host': 'weatherapi-com.p.rapidapi.com'
+    //     }
+    // };
 
-    //Fetch the data from the API and convert the response to JSON
-    let response = await fetch(`https://weatherapi-com.p.rapidapi.com/current.json?q=${city}`, options);
-
+    // //Fetch the data from the API and convert the response to JSON
+    // let response = await fetch(`https://weatherapi-com.p.rapidapi.com/current.json?q=${city}`, options);
+    let response = await fetch(`http://api.weatherapi.com/v1/current.json?key=553999dcc0054ef5a7384102232803&q=${city}`);
+    
     //Print the data to the console for debugging
-    console.log(data);
 
     let data = await response.json();
+    console.log(data);
     showWeatherInUi(data)
 }
 
