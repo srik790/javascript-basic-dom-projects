@@ -175,12 +175,15 @@ Object and Array is important
 Give 100 practice set from pdf downloaded ... practice like function, variable,array and solve mathematical function etc
 JShero or JS challanger.com
 
-Javascript Practice - free code camp
+W3s how to
 
-https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/
+Javascript Practice - free code camp -https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/
 
 
 fix more bugs 2
+Add to Cart
+Wishlist
+Music app
 
 
 
@@ -189,7 +192,19 @@ Api
 json
 fetch - waiter analogy
 async, await
-Dads joke, Quote generator, movies api, weather api, nasa api, json placeholder, fake shop api, Github profiles
+Dads joke,
+Quote generator, 
+movies api, 
+weather api,
+nasa api,
+json placeholder, 
+fake shop api, 
+Github profiles,
+Currency converter,
+Pokemon,
+ENglish dictionary,
+News Feed App
+
 Practice Api Javascript : https://www.youtube.com/watch?v=-7JSF_aATJg
 
 
@@ -197,13 +212,18 @@ Practice Api Javascript : https://www.youtube.com/watch?v=-7JSF_aATJg
 ---------------------CRUD------------------
 Crud pdf
 Google contact form
+
+HTML forms - study
+
+
 Contact App
 TODO App
+Expense Tracker
+Task Management App
+Income/Expense App
 
-HTML forms
 
 REST API - Get,Post,Put,delete
-
 PostMan
 
 
